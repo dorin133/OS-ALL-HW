@@ -1,0 +1,4 @@
+smash> smash> ./printSignals.exe & : 111003 
+smash: got ctrl-C
+smash: process 111003 was killed
+smash> smash: sending SIGKILL signal to 0 jobs:

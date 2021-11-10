@@ -1,0 +1,7 @@
+smash> smash: got ctrl-Z
+smash: process 111003 was stopped
+smash> [1] ./printSignals.exe : 111003 1 secs (stopped)
+smash> ./printSignals.exe : 111003
+smash> [1] ./printSignals.exe : 111003 1 secs
+smash> smash> smash: sending SIGKILL signal to 1 jobs:
+111003: ./printSignals.exe

@@ -1,0 +1,9 @@
+smash> smash> smash> smash> [1] sleep 100& : 111003 0 secs
+[2] sleep 200& : 111004 0 secs
+[3] sleep 300& : 111005 0 secs
+smash> smash> signal number 9 was sent to pid 111004
+smash> smash> [1] sleep 100& : 111003 3 secs
+[3] sleep 300& : 111005 3 secs
+smash> signal number 9 was sent to pid 111003
+smash> signal number 9 was sent to pid 111005
+smash> smash> smash> smash: sending SIGKILL signal to 0 jobs:

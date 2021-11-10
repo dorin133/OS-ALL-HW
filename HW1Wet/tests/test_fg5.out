@@ -1,0 +1,19 @@
+smash> smash> smash> smash> smash> smash> sleep 500& : 111011 
+smash: got ctrl-C
+smash: process 111011 was killed
+smash> sleep 400& : 111010 
+smash: got ctrl-C
+smash: process 111010 was killed
+smash> sleep 300& : 111009 
+smash: got ctrl-C
+smash: process 111009 was killed
+smash> sleep 200& : 111005 
+smash: got ctrl-C
+smash: process 111005 was killed
+smash> sleep 100& : 111003 
+smash: got ctrl-C
+smash: process 111003 was killed
+smash> smash error: fg: jobs list is empty
+smash> smash error: fg: jobs list is empty
+smash> smash error: fg: jobs list is empty
+smash> smash: sending SIGKILL signal to 0 jobs:

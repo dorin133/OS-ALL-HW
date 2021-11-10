@@ -1,0 +1,13 @@
+smash> smash error: bg: there is no stopped jobs to resume
+smash> smash> smash error: bg: there is no stopped jobs to resume
+smash> smash> [1] sleep 100& : 111003 0 secs
+[2] sleep 200& : 111004 0 secs
+smash> smash error: bg: job-id 2 is already running in the background
+smash> smash: got ctrl-Z
+smash: process 111005 was stopped
+smash> sleep 300 : 111005
+smash> smash error: bg: job-id 3 is already running in the background
+smash> smash: sending SIGKILL signal to 3 jobs:
+111003: sleep 100&
+111004: sleep 200&
+111005: sleep 300

@@ -1,0 +1,4 @@
+smash> smash error: fg: jobs list is empty
+smash> smash> smash error: fg: job-id 5 does not exist
+smash> smash: sending SIGKILL signal to 1 jobs:
+111003: sleep 100&

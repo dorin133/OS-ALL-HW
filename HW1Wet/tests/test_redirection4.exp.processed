@@ -1,0 +1,5 @@
+smash> stderr: should_not_be_redirected
+smash> stderr: should_not_be_redirected
+smash> stderr: should_not_be_redirected
+smash> smash> stdout: should_be_redirected
+smash> smash: sending SIGKILL signal to 0 jobs:

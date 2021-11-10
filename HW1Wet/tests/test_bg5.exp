@@ -1,0 +1,31 @@
+smash> smash: got ctrl-Z
+smash: process 111003 was stopped
+smash> smash: got ctrl-Z
+smash: process 111004 was stopped
+smash> smash: got ctrl-Z
+smash: process 111005 was stopped
+smash> smash: got ctrl-Z
+smash: process 111006 was stopped
+smash> smash: got ctrl-Z
+smash: process 111007 was stopped
+smash> [1] sleep 100 : 111003 9 secs (stopped)
+[2] sleep 200 : 111004 7 secs (stopped)
+[3] sleep 300 : 111005 5 secs (stopped)
+[4] sleep 400 : 111006 3 secs (stopped)
+[5] sleep 500 : 111007 1 secs (stopped)
+smash> sleep 300 : 111005
+smash> sleep 400 : 111006
+smash> sleep 200 : 111004
+smash> sleep 500 : 111007
+smash> sleep 100 : 111003
+smash> [1] sleep 100 : 111003 9 secs
+[2] sleep 200 : 111004 7 secs
+[3] sleep 300 : 111005 5 secs
+[4] sleep 400 : 111006 3 secs
+[5] sleep 500 : 111007 1 secs
+smash> smash: sending SIGKILL signal to 5 jobs:
+111003: sleep 100
+111004: sleep 200
+111005: sleep 300
+111006: sleep 400
+111007: sleep 500

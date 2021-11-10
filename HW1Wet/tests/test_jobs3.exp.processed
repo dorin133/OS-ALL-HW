@@ -1,0 +1,5 @@
+smash> smash> [1] ./printSignals.exe & : 2 X secs
+smash> ./printSignals.exe & : 2
+smash: got ctrl-C
+smash: process 2 was killed
+smash> smash> smash: sending SIGKILL signal to 0 jobs:
